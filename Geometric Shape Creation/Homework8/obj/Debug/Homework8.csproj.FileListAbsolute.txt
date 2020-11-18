@@ -1,0 +1,7 @@
+D:\visualStudioCprojects\Homework7\Homework8\Homework8\bin\Debug\Homework8.exe.config
+D:\visualStudioCprojects\Homework7\Homework8\Homework8\bin\Debug\Homework8.exe
+D:\visualStudioCprojects\Homework7\Homework8\Homework8\bin\Debug\Homework8.pdb
+D:\visualStudioCprojects\Homework7\Homework8\Homework8\obj\Debug\Homework8.csprojAssemblyReference.cache
+D:\visualStudioCprojects\Homework7\Homework8\Homework8\obj\Debug\Homework8.csproj.CoreCompileInputs.cache
+D:\visualStudioCprojects\Homework7\Homework8\Homework8\obj\Debug\Homework8.exe
+D:\visualStudioCprojects\Homework7\Homework8\Homework8\obj\Debug\Homework8.pdb
