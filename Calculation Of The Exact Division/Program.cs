@@ -11,20 +11,21 @@ namespace Application2
         static void Main(string[] args)
         {
             Console.WriteLine("Application : 2 ");
-            int s1, s2;
+            int n1, n2;
+            
 
             Console.Write("Enter the first number : ");
 
-            s1 = Convert.ToInt16(Console.ReadLine());
+            n1 = Convert.ToInt16(Console.ReadLine());
 
             Console.Write("Enter the second number : ");
 
-            s2 = Convert.ToInt16(Console.ReadLine());
-            if (s1 % s2 == 0)
+            n2 = Convert.ToInt16(Console.ReadLine());
+            if (n1 % n2 == 0)
             {
                 Console.WriteLine(true);
             }
-            else if (s2 % s1 == 0)
+            else if (n2 % n1 == 0)
             {
                 Console.WriteLine(true);
             }
