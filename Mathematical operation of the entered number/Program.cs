@@ -10,17 +10,17 @@ namespace Application1
     class Calculator
     {
         
-        int n1, n2;
+        int k, l;
         string operationType;
         public Calculator()
         {
             Console.WriteLine("Creating a class object...");
 
             Console.Write("Enter the first number : ");
-            n1 = Convert.ToInt16(Console.ReadLine());
+            k = Convert.ToInt16(Console.ReadLine());
 
             Console.Write("Enter the seconder number : ");
-            n2 = Convert.ToInt16(Console.ReadLine());
+            l = Convert.ToInt16(Console.ReadLine());
 
             Console.Write("Enter the arithmetic operation type. Example: (addition, subtraction, multiplication, division) : ");
             operationType = Console.ReadLine();
@@ -35,11 +35,11 @@ namespace Application1
         }
         public void gets1(int d)
         {
-            n1 = d;
+            k = d;
         }
         public void gets2(int e)
         {
-            n2 = e;
+            l = e;
         }
         public void getİslemTipi(string f)
         {
@@ -48,31 +48,31 @@ namespace Application1
 
         public void Additional()
         {
-            int additional = n1 + n2;
+            int additional = k + l;
             Console.Write("Sum of numbers entered : " + additional);
         }
         public void Difference()
         {
-            int difference = n1 - n2;
+            int difference = k - l;
             Console.Write("Difference in numbers entered : " + difference);
         }
         public void Multiplication()
         {
             int multiplication = 0;
-            for(int i = 1; i <= n2; i++)
+            for(int i = 1; i <= l; i++)
             {
-                multiplication = n1 + multiplication;
+                multiplication = k + multiplication;
             }
             Console.Write("The product of the numbers entered : " + (multiplication)); ;
         }
         public void Division()
         {
             int result, counter;
-            result = n1;
+            result = k;
 
-            for (counter = 0; n2 < 1+ result; counter++)
+            for (counter = 0; l < 1+ result; counter++)
             {
-                result = result - n2;
+                result = result - l;
             }
             Console.WriteLine("Division of numbers you entered : " + counter);
             Console.WriteLine("Remnant from the episode : " + result);
