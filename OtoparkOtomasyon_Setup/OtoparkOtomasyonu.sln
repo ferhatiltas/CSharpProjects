@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1267
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoparkOtomasyonu", "OtoparkOtomasyonu\OtoparkOtomasyonu.csproj", "{7C894E90-D837-4229-9AD6-2AAF69A948DB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "OtoparkOtomasyon_Setup", "..\..\..\OneDrive\Masaüstü\OtoparkOtomasyon_Setup\OtoparkOtomasyon_Setup.vdproj", "{7CA8DA8D-F3E1-4A89-9E70-76C07F907832}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C894E90-D837-4229-9AD6-2AAF69A948DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C894E90-D837-4229-9AD6-2AAF69A948DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C894E90-D837-4229-9AD6-2AAF69A948DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C894E90-D837-4229-9AD6-2AAF69A948DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA8DA8D-F3E1-4A89-9E70-76C07F907832}.Debug|Any CPU.ActiveCfg = Debug
+		{7CA8DA8D-F3E1-4A89-9E70-76C07F907832}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFA4F118-B124-4772-A212-2EDBFB047042}
+	EndGlobalSection
+EndGlobal
